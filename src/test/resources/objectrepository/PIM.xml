@@ -1,0 +1,71 @@
+<Objects>
+
+    <Element>
+        <Objectkey>PIM</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//span[text()='PIM']</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>EmployeeName</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>(//input[@placeholder='Type for hints...'])[1]</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>AddButton</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//*[text()=" Add "]</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>AddEmployee_FirstName</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//input[@name="firstName"]</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>AddEmployee_LastName</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//input[@name="lastName"]</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>AddEmployee_Save</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//button[@type="submit"]</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>EmployeeTitle</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//div[@class='oxd-table-filter-header-title']</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>HelpButton</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//button[@title='Help']</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>SearchButton</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//input[@type='search']</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>LicenseExpiryDate</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>(//i[@class='oxd-icon bi-calendar oxd-date-input-icon'])[1]</Objectvalue>
+    </Element>
+    
+    <Element>
+        <Objectkey>DateofBirth</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>(//i[@class='oxd-icon bi-calendar oxd-date-input-icon'])[2]</Objectvalue>
+    </Element>
+ 
+ 
+
+</Objects>

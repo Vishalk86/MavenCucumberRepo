@@ -1,0 +1,27 @@
+<Objects>
+
+    <Element>
+        <Objectkey>username</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//input[@name='username']</Objectvalue>
+    </Element>
+
+    <Element>
+        <Objectkey>password</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//input[@name='password']</Objectvalue>
+    </Element>
+
+    <Element>
+        <Objectkey>loginButton</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//button[@type='submit']</Objectvalue>
+    </Element>
+
+    <Element>
+        <Objectkey>dashboard</Objectkey>
+        <ObjectType>xpath</ObjectType>
+        <Objectvalue>//h6[text()='Dashboard']</Objectvalue>
+    </Element>
+
+</Objects>
