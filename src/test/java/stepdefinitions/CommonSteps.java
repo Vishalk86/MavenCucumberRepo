@@ -26,7 +26,7 @@ public class CommonSteps extends BaseClass
     public void launchBrowser() 
     {
         setup();
-        cf = new CommonFunctions(driver); // New
+        cf = new CommonFunctions(driver); // New - Do change
     }
 
     @And("I open application")
