@@ -19,6 +19,6 @@ Feature: Login Functionality
 #    And I click on "PIM##LicenseExpiryDate"
     Then I waitForElementPresent on "PIM##LicenseExpiryDate" 
     And I select date "PIM##LicenseExpiryDate" as "15##June##2010" 
-    And I select date "PIM##DateofBirth" as "10##May##2001" 
+#    And I select date "PIM##DateofBirth" as "10##May##2001" 
 #    https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 #    https://practicetestautomation.com/practice-test-login/
