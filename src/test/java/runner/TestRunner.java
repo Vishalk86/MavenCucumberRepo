@@ -9,11 +9,12 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"stepdefinitions"},
         dryRun = false,
         monochrome = true,
-        publish = true,
+        publish = true
 //        plugin = {"pretty", "html:target/cucumber-report.html"}
-      	plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+//     	plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}      /userAPI.feature
 )
 
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests 
+{
 
 }
